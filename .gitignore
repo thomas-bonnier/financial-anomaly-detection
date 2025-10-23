@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# --- Virtual environments ---
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Data & Models ---
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.db
+
+# --- MLflow ---
+mlruns/
+mlartifacts/
+
+# --- Docker ---
+*.pid
+*.seed
+*.bak
+
+# --- Monitoring / Logs ---
+logs/
+*.out
+*.err
+
+# --- Secrets ---
+*.env
+secrets.yaml
