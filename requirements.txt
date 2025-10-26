@@ -1,0 +1,33 @@
+# Core data handling
+pandas
+numpy
+scikit-learn
+
+# Data ingestion
+yfinance
+
+# Deep learning
+torch
+
+# Experiment tracking
+mlflow
+
+# API serving
+fastapi
+uvicorn
+
+# Monitoring
+prometheus-fastapi-instrumentator
+
+# Logging
+loguru
+
+# Testing & linting
+pytest
+flake8
+black
+
+# Optional: for Jupyter notebooks and visualization
+jupyter
+matplotlib
+seaborn
