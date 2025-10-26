@@ -30,14 +30,14 @@ ENV/
 Thumbs.db
 
 # --- Data & Models ---
-data/
-*.csv
-*.tsv
-*.parquet
-*.h5
-*.pkl
-*.joblib
-*.db
+#data/
+#*.csv
+#*.tsv
+#*.parquet
+#*.h5
+#*.pkl
+#*.joblib
+#*.db
 
 # --- MLflow ---
 mlruns/
