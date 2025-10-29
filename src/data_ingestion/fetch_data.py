@@ -10,7 +10,7 @@ def fetch_and_save_tickers(ticker: str, start: str, end: str, saved_dir)-> pd.Da
     and save as CSV in the data/ directory.
     """
     print(f"Fetching {ticker} from {start} to {end}...")
-    df = yf.download(ticker, start=start, end=end, progress=False, auto_adjust=False)
+    df = yf.download(ticker, start=start, end=end, progress=False, auto_adjust=True)
 
     if df.empty:
         print(f"No data returned for {ticker}")
